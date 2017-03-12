@@ -1,0 +1,8 @@
+base    goback
+author  Denis Gravel
+email   denis.gravel@outlook.fr
+date    2016-03-11
+name    GoBack plugin
+desc    Go back to previous page button
+url     https://www.dokuwiki.org/plugin:goback
+

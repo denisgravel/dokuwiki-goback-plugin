@@ -1,0 +1,28 @@
+/**
+ * goback pagetool icon
+ */
+
+/* goback icon */
+#dokuwiki__pagetools ul li a.goback {
+    background-position: right 0;
+}
+#dokuwiki__pagetools ul li a.goback:before {
+    content: url(goback.png);
+    margin-top: 0;
+}
+#dokuwiki__pagetools:hover ul li a.goback,
+#dokuwiki__pagetools ul li a.goback:focus,
+#dokuwiki__pagetools ul li a.goback:active {
+    background-image: url(goback.png);
+}
+#dokuwiki__pagetools ul li a.goback:hover,
+#dokuwiki__pagetools ul li a.goback:active,
+#dokuwiki__pagetools ul li a.goback:focus {
+    background-position: right -45px;
+}
+/*Keep pagetool icon on left side for rtl languages*/
+[dir=rtl] #dokuwiki__pagetools ul li a.goback:hover,
+#dokuwiki__pagetools ul li a.goback:active,
+#dokuwiki__pagetools ul li a.goback:focus {
+    background-position: left -45px;
+}
